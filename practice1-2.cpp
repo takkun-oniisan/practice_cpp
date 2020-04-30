@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std1;
+using namespace std;
 
 int main(){
     char str[128];
