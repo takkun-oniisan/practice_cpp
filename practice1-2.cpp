@@ -3,8 +3,8 @@ using namespace std;
 
 int main(){
     char str[128];
-    cout << "åå‰ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„>";
+    cout << "–¼‘O‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢>";
     cin >> str;
-    cout << "ã‚ˆã†ã“ã " << str << " ã•ã‚“";
+    cout << "‚æ‚¤‚±‚» " << str << " ‚³‚ñ";
     return 0;
 }
