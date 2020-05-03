@@ -1,5 +1,4 @@
 #include<iostream>
-using namespace std;
 
 int calc(int);
 
@@ -16,11 +15,8 @@ int calc(int n){
   for(int i = 1; i < n; i++){
     cout << i << " + ";
     sum += i;
-    if(i % 10 == 0){
-      cout << "\n";
-    }
   }
-  cout << n << "\n";
+  cout << n;
   sum += n;
   return sum;
 }
