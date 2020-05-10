@@ -5,7 +5,7 @@ using namespace std;
 class Haruhi {
 public:
   const char *str;
-  Haruhi(const char *str) {this->str = str;}//通常はHaruhi::str = str;
+  Haruhi(const char *str) {this->str = str;}//Haruhi::str = strでも可;
   void func() {cout << this->str;}          //通常はcout << str;
 } obj[3] = {"Yuuutsu\n", "Melancholy\n", "Haruhi\n"};
 
