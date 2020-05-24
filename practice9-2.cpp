@@ -12,4 +12,3 @@ int main(){
   ref.str = "The Melanchory of Haruhi Suzumiya";
   cout << obj.str;//参照元も変更が反映されていることに注目
   return 0;
-}
