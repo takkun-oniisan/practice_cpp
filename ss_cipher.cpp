@@ -62,7 +62,7 @@ int main(){
       obj.decrypt(str, set_match);
       cout << "平文：" << str;
       break;
-      default:
+    default:
       return 1;
   }
   return 0;
