@@ -1,4 +1,4 @@
-//情報セキュリティ　課題1
+//情報セキュリティ　課題1 8BDA1113
 #include<iostream>
 #include<string.h>
 #define N 11
