@@ -1,4 +1,4 @@
-//情報セキュリティ　オプション課題
+//情報セキュリティ　オプション課題 8BDA1113
 #include<iostream>
 using namespace std;
 
