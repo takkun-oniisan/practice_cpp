@@ -29,8 +29,12 @@ void ssc::decrypt(char *str){
 }
 
 int main(){
-  int set;
-  char str[100], set_match[27];
+  int set, str_length;
+  char *str, set_match[27];
+  cout << "文字列長:" << flush;
+  cin >> str_length;
+  str = (char *)malloc(str_length * sizeof(char));
+  if(str == NULL) exit(EXIT_FAILURE);
   cout << "暗号化・・・1\n暗号化（マッチング表変更）・・・2\n複合化・・・3\n復号化（マッチング表変更）・・・4" << endl;
   cin >> set;
   switch(set){

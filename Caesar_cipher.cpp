@@ -29,7 +29,6 @@ char caesar_cipher::shift_char(int key, char ch){
     }
   }
   return ch;
-  printf("debug");
 }
 
 void caesar_cipher::encrypt(int key, char *str){
