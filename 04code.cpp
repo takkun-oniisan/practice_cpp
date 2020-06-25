@@ -28,10 +28,10 @@ void caesar_encrypt(char *str, int shift){
   for(int i = 0; str[i] != '\0'; i++){
     if(str[i] >= 'A' && str[i] <= 'Z'){//大文字なら
       str[i] += shift;
-      if(str[i] < 'A'){             //同上
-        str[i] += 26;
-      } else if(str[i] > 'Z'){      //同上
-        str[i] -= 26;
+      if(str[i] < 'A'){         //Aより小さい値ならば
+        str[i] += 26;           //26文字先にずらす
+      } else if(str[i] > 'Z'){  //Zより大きい値ならば
+        str[i] -= 26;           //26文字前にずらす
       }
     }
   }
