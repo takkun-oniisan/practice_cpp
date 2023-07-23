@@ -35,7 +35,7 @@ int main(){
   cin >> str_length;
   str = (char *)malloc(str_length * sizeof(char));
   if(str == NULL) exit(EXIT_FAILURE);
-  cout << "暗号化・・・1\n暗号化（マッチング表変更）・・・2\n複合化・・・3\n復号化（マッチング表変更）・・・4" << endl;
+  cout << "暗号化・・・1\n暗号化（マッチング表変更）・・・2\n復号化・・・3\n復号化（マッチング表変更）・・・4" << endl;
   cin >> set;
   switch(set){
     case 1:
@@ -67,7 +67,9 @@ int main(){
       cout << "平文：" << str;
       break;
     default:
+      free(str);
       return 1;
   }
+  free(str);
   return 0;
 }
